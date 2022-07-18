@@ -14,10 +14,49 @@ body {
 #logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 10%;
 }
 
 #nav {
     display: flex;
     flex-direction: row;
     list-style: none;
+}
+
+a.navigation-link {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+}
+
+div.first-section {
+    display: flex;
+}
+
+.first-section-left {
+    background-color: #1F2937;
+}
+
+p#hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-left: 10%;
+}
+
+p#hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-section-right {
+
+}
+
+.first-section-pic {
+    width: 522px;
+    height: 237px;
 }
